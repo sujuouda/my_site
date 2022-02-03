@@ -51,20 +51,27 @@ hr {
   margin: 100px auto;
 }
 
-/* Containers */
 .top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  /* width: 200px;
+  height: 200px; */
 }
 
 .middle-container {
   margin: 100px 0;
+  /* background-color: red;
+  width: 200px;
+  height: 200px; */
 }
 
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
+  /* background-color: green;
+  width: 200px;
+  height: 200px; */
 }
 
 .skill-row {
@@ -112,7 +119,7 @@ hr {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #EAF6F6
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -143,15 +150,10 @@ hr {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-
-/* Media query */
-@media (max-width: 1028px) {
-
-  .top-container {
-    text-align: center;
-  }
-
-  .profile-image {
-    position: absolute;
-  }
+/* .code-skill-description {
+  clear: left;
 }
+
+.nugget-skill-description {
+  clear: right;
+} */
