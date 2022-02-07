@@ -22,13 +22,11 @@ h2 {
   font-weight: normal;
   color: #66BFBF;
   padding-bottom: 10px;
-  text-align: center;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
-  text-align: center;
 }
 
 a {
@@ -44,7 +42,6 @@ a:hover {
 
 p {
   line-height: 2;
-  text-align: center;
 }
 
 hr {
@@ -54,34 +51,27 @@ hr {
   margin: 100px auto;
 }
 
-/* Containers */
 .top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+  /* width: 200px;
+  height: 200px; */
 }
 
 .middle-container {
   margin: 100px 0;
+  /* background-color: red;
+  width: 200px;
+  height: 200px; */
 }
 
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
-}
-
-.mountain-image {
-  display: block;
-  margin: auto;
-}
-.profile-image {
-  display: block;
-  margin: auto;
-}
-
-.profile {
-  margin-left: auto;
-  margin-right: auto;
+  /* background-color: green;
+  width: 200px;
+  height: 200px; */
 }
 
 .skill-row {
@@ -91,13 +81,13 @@ hr {
 }
 
 .code-img {
-  width: 20%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .nugget-img {
-  width: 20%;
+  width: 25%;
   float: right;
   margin-left: 30px;
 }
@@ -129,7 +119,7 @@ hr {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #EAF6F6
   font-size: 0.75rem;
   padding: 20px 0;
 }
@@ -160,15 +150,10 @@ hr {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-
-/* Media query */
-@media (max-width: 1028px) {
-
-  .top-container {
-    text-align: center;
-  }
-
-  /* .profile-image {
-    position: absolute;
-  } */
+/* .code-skill-description {
+  clear: left;
 }
+
+.nugget-skill-description {
+  clear: right;
+} */
