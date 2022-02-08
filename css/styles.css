@@ -118,7 +118,7 @@ hr {
 }
 
 .bottom-cloud {
-  position: absolute;
+  position: sticky;
   left: 250px;
   bottom: 300px;
 }
