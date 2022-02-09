@@ -47,13 +47,6 @@ p {
   text-align: center;
 }
 
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-
 /* Containers */
 .top-container {
   background-color: #E4F9F5;
