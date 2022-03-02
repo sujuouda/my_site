@@ -47,6 +47,10 @@ p {
   text-align: center;
 }
 
+li {
+  list-style-position: inside;
+}
+
 /* Containers */
 .top-container {
   background-color: #2D31FA;
@@ -77,14 +81,27 @@ p {
   margin-right: auto;
 }
 
-.skill-row {
+.skills {
+  margin: auto 10%;
+}
+/* .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-}
+} */
 
 .skill-list {
   text-align: center;
+}
+
+.skill-left {
+  float: left;
+  width: 50%;
+}
+
+.skill-right {
+  margin-left: 50%;
+  margin-bottom: 15%;
 }
 
 .code-img {
