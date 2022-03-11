@@ -6,6 +6,11 @@ body {
   font-size: 200%;
 }
 
+button {
+  display: block;
+  padding: 10px 24px;
+}
+
 h1 {
   margin-top: 50px;
   font-size: 5.625rem;
@@ -47,9 +52,20 @@ p {
   text-align: center;
 }
 
+li {
+  list-style-position: inside;
+}
+
+td {
+  color: blue;
+  text-align: left;
+  padding: 8px;
+
+}
+
 /* Containers */
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #2D31FA;
   position: relative;
   padding-top: 100px;
 }
@@ -59,7 +75,7 @@ p {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #DFF6FF;
   padding: 50px 0 20px;
 }
 
@@ -77,10 +93,38 @@ p {
   margin-right: auto;
 }
 
-.skill-row {
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.paneld {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.skills {
+  margin: auto 10%;
+}
+/* .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+} */
+
+.skill-list {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skill-left {
+  float: left;
+  width: 50%;
+}
+
+.skill-right {
+  margin-left: 50%;
+  margin-bottom: 15%;
 }
 
 .code-img {
@@ -96,7 +140,8 @@ p {
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
+  text-align: left;
   margin: auto;
 }
 
@@ -121,6 +166,19 @@ p {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.work {
+  margin-top: 2vw;
+  background-color: #5EE6EB;
+  border: none;
+  width: 15vw;
+  /* height: 3vw; */
+  /* font-size: 1.5vw; */
+  color: #FFFFFF;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .btn {
