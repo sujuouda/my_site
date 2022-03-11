@@ -56,6 +56,13 @@ li {
   list-style-position: inside;
 }
 
+td {
+  color: blue;
+  text-align: left;
+  padding: 8px;
+
+}
+
 /* Containers */
 .top-container {
   background-color: #2D31FA;
@@ -106,7 +113,8 @@ li {
 } */
 
 .skill-list {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skill-left {
@@ -132,7 +140,8 @@ li {
 }
 
 .intro {
-  width: 30%;
+  width: 40%;
+  text-align: left;
   margin: auto;
 }
 
@@ -157,6 +166,19 @@ li {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+.work {
+  margin-top: 2vw;
+  background-color: #5EE6EB;
+  border: none;
+  width: 15vw;
+  /* height: 3vw; */
+  /* font-size: 1.5vw; */
+  color: #FFFFFF;
+  border-radius: 0.5vw;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .btn {

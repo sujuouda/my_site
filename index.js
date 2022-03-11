@@ -1,7 +1,16 @@
-// alert("Working")
 console.log("working")
 
 const workSize = document.querySelectorAll(".work").length
+workList = document.querySelectorAll(".work");
+descList = document.querySelectorAll(".panel");
+initializeJobs();
+
+function initializeJobs() {
+  for (var i = 1; i < workSize; i++) {
+    workList[i].classList.add("pressed");
+    descList[i].hidden = true;
+  }
+}
 
 for (var i = 0; i < workSize; i++) {
   document.querySelectorAll(".work")[i].addEventListener("click", function () {
@@ -13,14 +22,14 @@ for (var i = 0; i < workSize; i++) {
 function displayJob(currentKey) {
   currentKey = currentKey.toLowerCase();
   var activeButton = document.querySelector("." + currentKey);
-  workList = document.querySelectorAll(".work")
-  descList = document.querySelectorAll(".panel")
 
-  for (const work of workList){
-    if (work == activeButton) {
+  for (var i = 0; i < workSize; i++) {
+    if (workList[i] == activeButton) {
       activeButton.classList.remove("pressed");
+      descList[i].hidden = false;
     } else {
-      work.classList.add("pressed");
+      workList[i].classList.add("pressed");
+      descList[i].hidden = true;
     }
   }
 }
